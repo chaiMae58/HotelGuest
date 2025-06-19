@@ -22,7 +22,8 @@ The project is organized into the following packages:
 - `src/Guest`: Represents a guest with first name and last name.
 - `src/Hotelpersistence` : classs handling loading and saving hotel data.
 - `src/RoomFactory`: mplementation of the Factory Method pattern to create room objects.
-- `sysml`: Package containining a sysml v2 project defining hotel system's structure and needs.
+- `HotelManagementSystem_SysML v2`:.zip file containing a sysml v2 project defining hotel system's structure and needs.
+- `HotelSystemTestScenario.pdf`: provides a detailed walkthrough of functional tests performed on the hotel management system.
 
 ## Technologies Used
 - Java 17 Semeru
