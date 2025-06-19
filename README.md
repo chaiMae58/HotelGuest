@@ -16,6 +16,7 @@ This project demonstrates the use of Java GUI components, event-driven programmi
 ## Project Structure
 The project is organized into the following packages:
 - `src/HotelApp`: The main class.
+- `src/Hotel` : Core class managing rooms, guests, registrations, and overall hotel data.
 - `src/HotelAppUI`: Contains the Swing-based user interface 
 - `src/Room`: Abstract class or interface representing a room extended by StandardRoom and BusinessRoom.
 - `src/Guest`: Represents a guest with first name and last name.
@@ -24,10 +25,10 @@ The project is organized into the following packages:
 - `sysml`: Package containining a sysml v2 project defining hotel system's structure and needs.
 
 ## Technologies Used
-
-- Java SE 23 (Swing for GUI)
-- Object-Oriented Design and Design Patterns (Factory Method)
-- File-based persistence for saving hotel state
+- Java 17 Semeru
+- Maven 3.6.3
+- IIntelliJ Community Edition
+- Tested with IntelliJ Maven integration
 
 ## How to Run
 
