@@ -40,7 +40,7 @@ The project is organized into the following packages:
 
 2. **Build with Maven or your preferred build tool:**
 
-3. **Run the `HotelAppUI` main class:**
+3. **Run the `HotelApp` main class:**
 
 
 ## Usage
