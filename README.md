@@ -1,4 +1,4 @@
-# HotelGuest# Hotel Management System
+# Hotel Management System
 
 A simple Java Swing desktop application to manage hotel guest registration, deregistration, room occupancy, history, and reporting.  
 This project demonstrates the use of Java GUI components, event-driven programming, and basic hotel management logic.
@@ -13,6 +13,15 @@ This project demonstrates the use of Java GUI components, event-driven programmi
 - **Persistent Data:** Automatically saves and loads hotel data between sessions.
 - **Factory Method Pattern:** Uses the Factory Method design pattern to create room objects, promoting flexible and extensible code architecture.
 
+## Project Structure
+The project is organized into the following packages:
+
+- src/HotelAppUI: Contains the Swing-based user interface 
+- `model` — Contains core hotel classes like `Hotel`, `Guest`, and room-related entities.
+- `persistence` — Classes handling loading and saving hotel data (`HotelPersistent`).
+- `factory` — Implementation of the Factory Method pattern to create room and guest objects.
+- `stsml` — (Your SysML v2 models and related files)
+
 ## Technologies Used
 
 - Java SE (Swing for GUI)
@@ -26,15 +35,10 @@ This project demonstrates the use of Java GUI components, event-driven programmi
     git clone https://github.com/yourusername/hotel-management-system.git
     ```
 
-2. **Compile the Java files:**
-    ```bash
-    javac -d bin src/*.java
-    ```
+2. **Build with Maven or your preferred build tool:**
 
-3. **Run the application:**
-    ```bash
-    java -cp bin HotelAppUI
-    ```
+3. **Run the `HotelAppUI` main class:**
+
 
 ## Usage
 
