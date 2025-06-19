@@ -35,7 +35,7 @@ The project is organized into the following packages:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/hotel-management-system.git
+    git clone https://github.com/chaiMae58/HotelGuest.git
     ```
 
 2. **Build with Maven or your preferred build tool:**
