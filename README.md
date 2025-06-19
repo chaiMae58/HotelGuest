@@ -11,8 +11,8 @@ This project demonstrates the use of Java GUI components, event-driven programmi
 - **Room History & Status:** Show historical occupancy and status of rooms.
 - **Occupancy Report:** Generate reports about room occupancy statistics.
 - **Persistent Data:** Automatically saves and loads hotel data between sessions.
-- **Factory Method Pattern:** Uses the Factory Method design pattern to create room objects, promoting flexible and extensible code architecture.
-
+- **Factory Method Pattern:** Uses the Factory Method design pattern to create room objects.
+  
 ## Project Structure
 The project is organized into the following packages:
 - `src/HotelApp`: The main class.
